@@ -2,7 +2,7 @@
 
 
 const queryDefault = '63.116.61.253'
-const url = `http://ip-api.com/json/${queryDefault}`;
+const url = `https://ip-api.com/json/${queryDefault}`;
 
 
 
@@ -68,7 +68,7 @@ const userInput = document.querySelector('.input-container input')
 const handleEvent = (input) => {
     if (input) {
         let query = input
-        const url = `http://ip-api.com/json/${query}`
+        const url = `https://ip-api.com/json/${query}`
         fetchFunction(url)
 
     }
